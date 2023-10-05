@@ -1,0 +1,20 @@
+element.style{
+    display: none;
+}
+
+iframe {
+    border: 0;
+}
+
+
+:root{
+    --color-bg-gradient: rgba(11, 196, 266, 0.2);
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #e7e6e3;
+    font-weight: 400;
+    -webkit-text-size-adjust: 100;
+}
