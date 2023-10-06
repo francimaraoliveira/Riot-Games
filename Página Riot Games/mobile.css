@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.menu-superior {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.banner-principal {
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.novidades, .nossos-jogos, .comunidade {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px 0;
+}

@@ -1,0 +1,82 @@
+/* Exemplo de estilos para o Menu Superior */
+.menu-superior {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Estilos para os links no Menu Superior */
+.menu-superior a {
+    color: #fff;
+    margin: 0 10px;
+}
+
+/* Adicione os estilos para as outras seções e elementos conforme necessário */
+@media screen and (max-width: 599px) {
+    .menu-superior {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-superior a {
+        margin: 5px 0;
+    }
+}
+.menu-superior {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.menu-superior nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-superior nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.menu-superior nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card p {
+    margin: 0;
+}
+
+.novidades {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coluna-1 {
+    flex: 1;
+}
+
+.coluna-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.parte, .item {
+    padding: 10px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
